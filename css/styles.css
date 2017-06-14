@@ -129,10 +129,35 @@ p {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
 }
 
 #review h1 {
   font-family: 'Lobster', cursive;
   font-size: 54px;
+}
+
+/* MENU SECTION */
+
+#menu {
+  min-height: 700px;
+  background-image: url('../img/black_linen.png');
+  padding-top: 5% 0;
+}
+
+#menu .nav-tabs>li>a.orange-text:hover {
+  background-color: rgba(0, 0, 0, .4);
+  border: none;
+  color: #f8512f
+}
+
+.food {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.menu-title {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 5em;
 }
